@@ -1,0 +1,5 @@
+  type: Floor
+  liquidDrop: water
+  cacheLayer: water
+  shalow: false
+  isLiquid: true

@@ -1,0 +1,13 @@
+name: 666
+sector: 97
+planet: serpulo
+difficulty: 8
+research: {
+parent: tarFields
+objectives: [copperamic-copper-reconstructor, copperamic-amic, copperamic-dami, laser-drill, 
+{
+type: SectorComplete
+preset: tarFields
+}
+]
+}
