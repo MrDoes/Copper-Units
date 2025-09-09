@@ -11,10 +11,10 @@ metaglass/55
 }
 constructTime: 1750
 upgrades: [
-[mace, amic]
-[atrax, dami]
+[mace, queue]
+[atrax, shock]
 [horizon, fimu]
-[minke, gura]
+[minke, firework]
 ]
 research: {
 parent: multiplicative-recontructor

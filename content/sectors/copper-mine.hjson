@@ -4,7 +4,7 @@ planet: serpulo
 difficulty: 8
 research: {
 parent: tarFields
-objectives: [copperamic-copper-reconstructor, copperamic-amic, copperamic-dami, laser-drill, 
+objectives: [
 {
 type: SectorComplete
 preset: tarFields

@@ -1,2 +1,0 @@
-# Copper Units
-Mindustry mod

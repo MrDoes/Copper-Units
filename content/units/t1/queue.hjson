@@ -10,7 +10,7 @@
 				shots: 7
 				shotDelay: 4
 			}
-			name: amic-weapon
+			name: queue-weapon
 			rotate: true
 			rotateSpeed: 2
 			rotationLimit: 9
@@ -91,7 +91,7 @@
 				shots: 2
 				shotDelay: 15
 			}
-			name: amic-second-weapon
+			name: queue-second-weapon
 			rotate: false
 			shootCone: 25
 			x: 0.0
