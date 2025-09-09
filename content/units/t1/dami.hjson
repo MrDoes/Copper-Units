@@ -37,6 +37,7 @@ alwaysUnlocked: false
 	rotate: true
 	rotationLimit: 30
 	rotateSpeed: 2
+	shootSound: spark
 	parts: [
 		
 		{
@@ -80,7 +81,7 @@ alwaysUnlocked: false
 		drag: 0.03
 		damage: 60
 		splashDamage: 15
-		splashRange: 15
+		splashDamageRadius: 15
 		lifetime: 80
 	//	backColor: 1a1a1a
 	//	frontColor: 525252
@@ -130,7 +131,7 @@ alwaysUnlocked: false
 		drag: 0.05
 		damage: 15
 		splashDamage: 15
-		splashRange: 15
+		splashDamageRadius: 15
 		lifetime: 5
 	//	backColor: 1a1a1a
 	//	frontColor: 525252
