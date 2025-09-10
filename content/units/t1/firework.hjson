@@ -3,11 +3,11 @@
   drag: 0.17
   targetAir: true
   hitSize: 25
-  health: 1000
+  health: 550
   speed: 0.56
   accel: 0.18
   rotateSpeed: 1.6
-  trailX: 78
+  trailX: 125
   trailY: 0
   trailScl: 1.5
   trailLength: 56
@@ -164,10 +164,10 @@
       ]
 		}
 	]
-	name: gura-weapon
+	name: firework-weapon
 	minWarmup: 0.99
 	x: 0
-	y: 1
+	y: 0
 	reload: 360
 	shake: 7
 	top: true
@@ -176,6 +176,7 @@
 	rotate: true
 	rotateSpeed: 1.6
 	heatProgress: recoil
+	 shootSound: artillery
 	bullet: {
 		type: basicBulletType
 		targetGround: true
