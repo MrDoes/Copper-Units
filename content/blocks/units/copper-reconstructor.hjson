@@ -13,7 +13,6 @@ constructTime: 1750
 upgrades: [
 [mace, queue]
 [atrax, shock]
-[horizon, fimu]
 [minke, firework]
 ]
 research: {

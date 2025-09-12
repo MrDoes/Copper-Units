@@ -149,8 +149,8 @@
 		parent: copperamic-copper-fabric
 		planet: serpulo
 		requirements: [
-silicon/140
-titanium/50
-copper/55
+silicon/1400
+titanium/150
+copper/550
 ]
 	}

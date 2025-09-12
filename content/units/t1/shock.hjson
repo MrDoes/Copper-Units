@@ -66,8 +66,8 @@ alwaysUnlocked: false
 			x: 0.5
 			y: 0
 			progress: warmup
-			moveX: 2
-			moveY: -2
+			moveX: 2.5
+			moveY: -2.5
 			moveRot: 0
 		}
 	]
@@ -166,9 +166,9 @@ alwaysUnlocked: false
 		parent: copperamic-copper-fabric
 		planet: serpulo
 		requirements: [
-silicon/120
-titanium/60
-copper/50
+silicon/1200
+titanium/450
+copper/500
 ]
 	}
 

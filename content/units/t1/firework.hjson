@@ -14,162 +14,13 @@
   rotateShooting: false
   weapons: [
   {
-  parts: [
-		{
-			suffix: -middle
-			mirror: false
-			under: false
-			outline: true
-			x: 0
-			y: 0
-			progress: warmup
-			moveX: 0
-			moveY: 1.5
-			moveRot: 0
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-        rot: 0
-          moveY: -1.25
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -gun
-			mirror: false
-			under: false
-			outline: true
-			x: 0
-			y: 0
-			progress: warmup
-			heatProgress: recoil
-			moveX: 0
-			moveY: -1
-			moveRot: 0
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-        rot: 0
-          moveY: -2
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -arrow
-			mirror: false
-			under: false
-			outline: true
-			x: 0
-			y: 0
-			progress: warmup
-			moveX: 0
-			moveY: -1.5
-			moveRot: 0
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-        rot: 0
-          moveY: -1.5
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -wing
-			mirror: true
-			under: false
-			outline: true
-			x: 5.75
-			y: -5
-			progress: warmup
-			moveX: 0
-			moveY: 0
-			moveRot: -160
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-         rot: -40
-          moveY: 0
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -wing
-			mirror: true
-			under: false
-			outline: true
-			x: 5.75
-			y: -5
-			progress: warmup
-			moveX: 0
-			moveY: 0
-			moveRot: -125
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-        rot: -40
-          moveY: 0
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -wing
-			mirror: true
-			under: false
-			outline: true
-			x: 5.75
-			y: -5
-			progress: warmup
-			moveX: 0
-			moveY: 0
-			moveRot: -90
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-       rot: -40
-          moveY: 0
-          moveX: 0
-        }
-      ]
-		}
-		{
-			suffix: -wing
-			mirror: true
-			under: false
-			outline: true
-			x: 5.75
-			y: -5
-			progress: warmup
-			moveX: 0
-			moveY: 0
-			moveRot: -25
-			moves: [
-        {
-        type: PartMove
-          progress: recoil
-        rot: -40
-          moveY: 0
-          moveX: 0
-        }
-      ]
-		}
-	]
 	name: firework-weapon
 	minWarmup: 0.99
 	x: 0
 	y: 0
 	reload: 360
 	shake: 7
+	recoil: 4
 	top: true
 	mirror: false
 	ejectEffect: blastExplosion
@@ -185,7 +36,7 @@
 		height: 8
 		speed: 7.5
 		acell: -0.01
-		damage: 235
+		damage: 175
 		splashDamage: 65
 		splashRange: 40
 		lifetime: 45
@@ -321,9 +172,9 @@
 		parent: copperamic-copper-fabric
 		planet: serpulo
 		requirements: [
-silicon/260
-titanium/30
-metaglass/70
-copper/90
+silicon/760
+titanium/300
+metaglass/270
+copper/450
 ]
 	}

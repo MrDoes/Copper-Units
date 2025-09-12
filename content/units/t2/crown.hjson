@@ -1,7 +1,7 @@
 	type: mech
 	flying: false
 	speed: 0.28
-	hitSize: 15
+	hitSize: 14
 	health: 9550
 	armor: 9
 	rotateSpeed: 0.5
@@ -213,11 +213,12 @@ spread: 3
 		}
 	]
 	research: {
-		parent: copperamic-copper-fabric
+		parent: copperamic-queue
+		objectives: [copper-refabricator]
 		planet: serpulo
 		requirements: [
-silicon/140
-titanium/50
-copper/55
+silicon/5500
+titanium/7500
+copper/12000
 ]
 	}
